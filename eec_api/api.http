@@ -1,0 +1,11 @@
+
+
+POST https://eec-onep.soc.cmu.ac.th/api/wtrq-api-cherry.php
+content-type: application/json
+
+{
+    "stname": "station_01",
+    "param": "ph",
+    "limit": "210",
+    "sort": "DESC"
+}
